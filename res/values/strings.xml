@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ORM Sample</string>
+    
+    <string name="title_activity_people">People</string>
+    <string name="title_activity_departments">Departments</string>    
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_edit">Edit</string>
+    
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="department">Department</string>
+    <string name="save">Save</string>
+</resources>

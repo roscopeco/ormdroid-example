@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_people"
+        android:title="@string/title_activity_people">
+    </item>
+    <item
+        android:id="@+id/menu_departments"
+        android:title="@string/title_activity_departments">
+    </item>
+    <item
+        android:id="@+id/menu_add"
+        android:title="@string/menu_add">
+    </item>
+</menu>

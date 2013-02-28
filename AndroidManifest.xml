@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roscopeco.ormsample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:name="com.roscopeco.ormdroid.ORMDroidApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".PeopleListActivity"
+            android:label="@string/title_activity_people" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DepartmentsListActivity"
+            android:label="@string/title_activity_departments" >
+        </activity>
+        <activity
+            android:name=".PersonDetailActivity"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name=".DepartmentDetailActivity"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name=".PersonEditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name=".DepartmentEditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+
+        <meta-data
+            android:name="ormdroid.database.name"
+            android:value="addressbook" />
+    </application>
+
+</manifest>
